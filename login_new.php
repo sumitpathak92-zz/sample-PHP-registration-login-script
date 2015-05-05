@@ -1,10 +1,6 @@
 <?php
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 include_once 'includes/db_connect.php';
 include_once 'includes/commonFunctions_new.php';
 
@@ -19,8 +15,7 @@ include_once 'includes/commonFunctions_new.php';
     </title>    
     <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
 
-    <script type="text/JavaScript" src="js/forms.js"></script>
-     <script type="text/JavaScript" src="js/sha512.js"></script>
+    
     </head>
     
     <body>
@@ -44,12 +39,9 @@ include_once 'includes/commonFunctions_new.php';
         <footer class="clearfix">
 
           <p><span class="info">?</span><a href="#">Forgot Password</a></p>
-<!--          
           
-//        if (isset($_GET['error'])) {
-//            echo '<p class="error" style="color:red;">Error Logging In!</p>';
-//        }
-//        ?>
+          
+
 
         </footer>
 
@@ -57,7 +49,7 @@ include_once 'includes/commonFunctions_new.php';
 
     </fieldset>
 
-  </div> <!-- end login-form -->
+  </div> 
 
 </div>
     </body>
